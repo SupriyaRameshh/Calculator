@@ -33,6 +33,9 @@ public class CalculatorClass {
 		case '+': 
 
 			o = num1 + num2; 
+			// print the final result 
+			System.out.println(num1 + " " + op + " " + num2 
+							+ " = " + o); 
 
 			break; 
 
@@ -40,6 +43,9 @@ public class CalculatorClass {
 		case '-': 
 
 			o = num1 - num2; 
+			// print the final result 
+			System.out.println(num1 + " " + op + " " + num2 
+							+ " = " + o); 
 
 			break; 
 			
@@ -47,6 +53,9 @@ public class CalculatorClass {
 		case '*': 
 
 			o = num1 * num2; 
+			// print the final result 
+			System.out.println(num1 + " " + op + " " + num2 
+							+ " = " + o); 
 
 			break; 
 
@@ -54,6 +63,9 @@ public class CalculatorClass {
 		case '/': 
 
 			o = num1 / num2; 
+			// print the final result 
+			System.out.println(num1 + " " + op + " " + num2 
+							+ " = " + o); 
 
 			break; 
 
@@ -68,9 +80,7 @@ public class CalculatorClass {
 
 		System.out.println(); 
 
-		// print the final result 
-		System.out.println(num1 + " " + op + " " + num2 
-						+ " = " + o); 
+
 	} 
 }
 
