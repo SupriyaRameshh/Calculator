@@ -42,10 +42,24 @@ public class CalculatorClass {
 			o = num1 - num2; 
 
 			break; 
+			
+		// case to multiply two numbers 
+		case '*': 
+
+			o = num1 * num2; 
+
+			break; 
+
+		// case to divide two numbers 
+		case '/': 
+
+			o = num1 / num2; 
+
+			break; 
 
 		default: 
 
-			System.out.println("You enter wrong input"); 
+			System.out.println("You entered wrong input"); 
 
 			break; 
 		} 
