@@ -60,7 +60,7 @@ public class CalculatorClass {
 		default: 
 
 			System.out.println("You entered wrong input"); 
-			System.out.println("***********************");
+
 			break; 
 		} 
 
